@@ -21,17 +21,17 @@ header {
 	padding: 20px;
 }
 section {
-	background-color: #ffe2b8;
+	background-color: #ffff;
 	border: 1px black solid;
 	padding: 20px;
 }
 article {
-	background-color: #e89c6c;
+	background-color: #fffff;
 	border: 1px black solid;
 	padding: 20px;
 }
 footer {
-	background-color: #ff957e;
+	background-color: #fffff;
 	border: 1px black solid;
 	padding: 20px;
 }
