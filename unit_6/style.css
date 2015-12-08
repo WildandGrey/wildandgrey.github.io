@@ -6,7 +6,7 @@
 }
 
 body {
-background-color:c #F5F5F5;
+background-color:c #fffff;
 }
 p {
 color: #0D0D0D;
@@ -16,7 +16,7 @@ h1 {
 font-family: 'Libre Baskerville', serif;
 }
 header {
-	background-color: #ffed74;
+	background-color: #fffff;
 	border: 1 px black solid;
 	padding: 20px;
 }
