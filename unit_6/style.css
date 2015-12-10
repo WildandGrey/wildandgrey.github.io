@@ -1,12 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:700);
 
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
 
 * {margin: 0; padding: 0; box-sizing: border-box;
 }
 
 body {
-background-color:c #fffff;
+background-color:c #F5F5F5;
 }
 p {
 color: #0D0D0D;
@@ -16,22 +23,41 @@ h1 {
 font-family: 'Libre Baskerville', serif;
 }
 header {
-	background-color: #fffff;
+	background-color: #ffed74;
 	border: 1 px black solid;
 	padding: 20px;
 }
 section {
-	background-color: #ffff;
+	background-color: #ffe2b8;
 	border: 1px black solid;
 	padding: 20px;
 }
 article {
-	background-color: #fffff;
+	background-color: #e89c6c;
 	border: 1px black solid;
 	padding: 20px;
 }
 footer {
-	background-color: #fffff;
+	background-color: #ff957e;
 	border: 1px black solid;
 	padding: 20px;
+}
+#two_column {
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+	background-color: #e582a2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+#right {
+	background-color: #e55b88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
 }
